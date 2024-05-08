@@ -80,11 +80,11 @@ class TextEditFieldPrefixIcon extends StatefulWidget {
   final FormFieldValidator<String>? validator;
 
   @override
-  _TextEditFieldPrefixIconState createState() =>
-      _TextEditFieldPrefixIconState();
+  TextEditFieldPrefixIconState createState() =>
+      TextEditFieldPrefixIconState();
 }
 
-class _TextEditFieldPrefixIconState extends State<TextEditFieldPrefixIcon> {
+class TextEditFieldPrefixIconState extends State<TextEditFieldPrefixIcon> {
   @override
   void initState() {
     super.initState();

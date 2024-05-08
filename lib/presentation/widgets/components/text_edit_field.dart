@@ -99,10 +99,10 @@ class TextEditField extends StatefulWidget {
   final bool autocorrect;
 
   @override
-  _TextEditFieldState createState() => _TextEditFieldState();
+  TextEditFieldState createState() => TextEditFieldState();
 }
 
-class _TextEditFieldState extends State<TextEditField> {
+class TextEditFieldState extends State<TextEditField> {
   @override
   void initState() {
     super.initState();

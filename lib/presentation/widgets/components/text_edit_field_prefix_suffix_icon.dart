@@ -62,11 +62,11 @@ class TextEditFieldPrefixSuffixIcon extends StatefulWidget {
   final int? maxLength;
 
   @override
-  _TextEditFieldPrefixSuffixIconState createState() =>
-      _TextEditFieldPrefixSuffixIconState();
+  TextEditFieldPrefixSuffixIconState createState() =>
+      TextEditFieldPrefixSuffixIconState();
 }
 
-class _TextEditFieldPrefixSuffixIconState
+class TextEditFieldPrefixSuffixIconState
     extends State<TextEditFieldPrefixSuffixIcon> {
   @override
   void initState() {

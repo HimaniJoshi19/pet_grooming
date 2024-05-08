@@ -1,12 +1,12 @@
 class StringConstants {
-  static const String appName = 'Provider Cubit Structure';
+  static const String appName = 'Pet Grooming';
   static const String appPlayStoreUrl =
       'https://play.google.com/store/apps/details?id=com.ludo.king';
   static const String montserratFont = 'Montserrat';
 
   static String msgNoInternetConnection = 'No Internet';
   static String labelUnauthorizedRefreshToken = 'Unauthorized';
-  static String labelUnauthorizedAccessToken = 'invalid access_token';
+  static String labelUnauthorizedAccessToken = 'Invalid access_token';
 
   static const String labelRefresh = 'Refresh';
   static const String labelReconnect = 'Reconnect';

@@ -27,6 +27,6 @@ class AnalyticsEvent {
   }) {
     Utility.showLog('Current screenName : $screenName');
 
-    analytics.setCurrentScreen(screenName: screenName);
+    analytics.logScreenView(screenName: screenName);
   }
 }

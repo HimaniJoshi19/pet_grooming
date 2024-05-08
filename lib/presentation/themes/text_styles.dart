@@ -183,17 +183,6 @@ class TextStyles {
         fontFamily: fontFamily,
       );
 
-  static TextStyle onBoardingLineStyle({
-    Color? color = Palette.colorOnBoardingLine1,
-    String? fontFamily,
-  }) =>
-      TextStyle(
-        color: color,
-        fontSize: Spacings.custom36,
-        fontWeight: FontConstants.medium,
-        fontFamily: fontFamily,
-      );
-
   /// Default BoxDecoration
   static BoxDecoration myFun(
     Color borderColor,

@@ -1,7 +1,7 @@
 // ignore_for_file: avoid_dynamic_calls
 
 import 'package:flutter/material.dart';
-import 'package:pet_grooming/constant/string_constants.dart';
+import 'package:pet_grooming/constants/string_constants.dart';
 import 'package:pet_grooming/presentation/themes/themes.dart';
 import 'package:pet_grooming/presentation/widgets/components.dart';
 

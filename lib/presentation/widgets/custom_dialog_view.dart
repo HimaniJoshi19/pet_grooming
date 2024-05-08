@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pet_grooming/constant/String_constants.dart';
+import 'package:pet_grooming/constants/String_constants.dart';
 import 'package:pet_grooming/presentation/themes/themes.dart';
 import 'package:pet_grooming/presentation/widgets/components.dart';
 class CustomDialogView {
@@ -16,8 +16,8 @@ class CustomDialogView {
     return showDialog<int>(
       context: context,
       barrierDismissible: barrierDismissible,
-      builder: (BuildContext context) => WillPopScope(
-        onWillPop: () async => onWillPop,
+      builder: (BuildContext context) => PopScope(
+        canPop: onWillPop,
         child: AlertDialog(
           shape: const RoundedRectangleBorder(
             borderRadius: BorderRadius.only(

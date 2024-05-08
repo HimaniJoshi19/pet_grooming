@@ -57,11 +57,11 @@ class TextEditFieldSuffixIcon extends StatefulWidget {
   final bool readOnly;
 
   @override
-  _TextEditFieldSuffixIconState createState() =>
-      _TextEditFieldSuffixIconState();
+  TextEditFieldSuffixIconState createState() =>
+      TextEditFieldSuffixIconState();
 }
 
-class _TextEditFieldSuffixIconState extends State<TextEditFieldSuffixIcon> {
+class TextEditFieldSuffixIconState extends State<TextEditFieldSuffixIcon> {
   @override
   void initState() {
     super.initState();

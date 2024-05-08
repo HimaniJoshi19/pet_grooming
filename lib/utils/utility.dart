@@ -52,7 +52,7 @@ class Utility {
     final FirebaseAuth auth = firebaseAuth ?? FirebaseAuth.instance;
     return auth.currentUser?.uid;
   }
-  
+
   static String dateToString(DateTime? date, String format) {
     if (date != null) {
       final DateFormat f = DateFormat(format);
@@ -129,10 +129,12 @@ class Utility {
     try {
       await OpenFile.open(file.path);
     } catch (e) {
-      showCenterFlash(
-        message: e.toString(),
-        context: context,
-      );
+      if (context.mounted) {
+        showCenterFlash(
+          message: e.toString(),
+          context: context,
+        );
+      }
     }
   }
 

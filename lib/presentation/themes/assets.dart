@@ -111,10 +111,9 @@ class ImageAssets {
     double? height,
     Color? iconColor,
   }) =>
-      SvgPicture.asset(
-        path,
-        width: width ?? size,
-        height: height ?? size,
-        color: iconColor,
-      );
+      SvgPicture.asset(path,
+          width: width ?? size,
+          height: height ?? size,
+          colorFilter:
+              ColorFilter.mode(iconColor ?? Colors.black, BlendMode.srcIn));
 }
